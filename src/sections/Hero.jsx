@@ -28,7 +28,7 @@ const Hero = () => {
             </p>
 
             <LinkScroll to="features" offset={-100} spy smooth>
-              <Button icon="/images/zap.svg">Try it now</Button>
+              <Button icon="images/zap.svg">Try it now</Button>
             </LinkScroll>
           </div>
 
@@ -37,7 +37,7 @@ const Hero = () => {
                     pointer-events-none hero-img_res"
           >
             <img
-              src="/images/hero.png"
+              src="images/hero.png"
               alt="hero"
               className="size-1230 max-lg:h-auto"
             />
