@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6dd360b5e65bbf3f0e52cfdff386cd861a0223f9
 name: Deploy
 
 on:
@@ -47,4 +51,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6dd360b5e65bbf3f0e52cfdff386cd861a0223f9
